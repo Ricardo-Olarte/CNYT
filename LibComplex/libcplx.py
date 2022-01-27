@@ -1,5 +1,13 @@
 import math
 
+'''
+
+LIBRERIA NUMEROS COMPLEJOS
+
+ELABORADO POR: JOSE RICARDO OLARTE PARDO
+
+'''
+
 # Suma de un numero complejo
 def suma(a,b):
 
@@ -62,12 +70,15 @@ def cartesiana(a):
     ordenada = r * seno
     return (abscisa, ordenada)
 
+#Main
 if __name__ == '__main__':
     print(suma((1,1),(2.5,-1.9))) # (1 + i) + (2.5 - 1.9i) = 3.5 - 0.9i
     print(resta((1,1),(2.5,-1.9))) # (1 + i) - (2.5 - 1.9i) = -1.5 + 2.9i
+    print(conjugado((2.5,-1.9))) # (2.5 - 1.9i) = 2.5 + 1.9i
     print(multiplicacion((1,1),(2.5,-1.9))) # (1 + i) * (2.5 - 1.9i) = 2.5 + 2.5i
     print(division((1,1),(2.5,-1.9))) # (1 + i) / (2.5 - 1.9i) =  0.61 + 0.447i
     print(modulo((2.5,-1.9))) # |(2.5 - 1.9i)| = 3.14
     print(fase((2.5,-1.9))) # (2.5 - 1.9i) = 37.23
     print(polar((2.5,-1.9))) # (2.5 - 1.9i) = (3.14, 37.235)
     print(cartesiana((2.5,-1.9))) # (2.5 - 1.9i) = (-0.808,-2.365)
+

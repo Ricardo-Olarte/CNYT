@@ -36,6 +36,7 @@ class TestStringMethods(unittest.TestCase):
 
     #Test de division de un numero complejo
     def test_division_compleja(self):
+<<<<<<< HEAD
         self.assertEqual(lc.multiplicacion((5,5),(-1.7,3.4)),(-25.5,8.5))
 
     #Test de modulo de un numero complejo
@@ -53,6 +54,25 @@ class TestStringMethods(unittest.TestCase):
     #Test de coordena cartesiana de un numero complejo
     def test_cartesiana_compleja(self):
         self.assertEqual(lc.multiplicacion((5,5),(-1.7,3.4)),(3.3,8.4))
+=======
+        self.assertEqual(lc.division((2,1),(-1,1)),(-0.5,-1.5))
+
+    #Test de modulo de un numero complejo
+    def test_modulo_compleja(self):
+        self.assertEqual(lc.modulo((4,3)),5)
+    
+    #Test de fase de un numero complejo
+    def test_fase_compleja(self):
+        self.assertEqual(lc.fase((3,7)),66.8)
+        
+    #Test de coordenada polar de un numero complejo
+    def test_polar_compleja(self):
+        self.assertEqual(lc.polar((-1.5,3)),(3.35,63.43))
+
+    #Test de coordena cartesiana de un numero complejo
+    def test_cartesiana_compleja(self):
+        self.assertEqual(lc.cartesiana((-1.5,3)),(1.4849887449006682,-0.2116800120898008))
+>>>>>>> 2985247 (Libreria Numeros Complejos)
         
 #Main
 if __name__ == '__main__':

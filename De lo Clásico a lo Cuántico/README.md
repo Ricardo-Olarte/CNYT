@@ -1,7 +1,7 @@
 # Simulacion de lo clasico a lo cuantico
 
 Se realiza diferentes ejercicios de lo clasico a lo cuantico.
-Graficamente se ve 
+La grafica de barras representa como se ve cada ejercicio
 
 # Ejemplos
 
